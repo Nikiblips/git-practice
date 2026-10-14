@@ -76,7 +76,7 @@ function keyUp(event) {
 // Setup is run once, at the start of the program. It sets everything up for us!
 function setup() {
   // Put your event listener code here
-  windowaddEventListener("keydown", keyDown);
+  window.addEventListener("keydown", keyDown);
   window.addEventListener("keyup", keyUp);
 }
 
